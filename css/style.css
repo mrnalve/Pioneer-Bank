@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+#login_area{
+    max-width: 800px;
+    margin-top: 150px !important;
+}
+.submit_area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+}
+#transaction_area{
+    display: none;
+}
+.transaction_area,
+.transaction_area_frm{
+    --bs-gutter-x : 0;
+    text-align: center;
+    margin: 0 100px;
+    margin-top: 150px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 0 50px;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.transaction_area_frm{
+    margin-top: 50px;
+    text-align: left;
+}
+.transaction_area_frm .submit_area{
+    margin: 30px;
+}
